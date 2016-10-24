@@ -4,10 +4,10 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://<host>:<port>/<database>"/>
-      <property name="javax.persistence.jdbc.user" value="<user>"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-107-22-235-119.compute-1.amazonaws.com:5432/d4fnmp0oah2s0a"/>
+      <property name="javax.persistence.jdbc.user" value="amrwktmycvttxv"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="<password>"/>
+      <property name="javax.persistence.jdbc.password" value="tVJwOGlj_ImIeUlFMvJCDZBgqs"/>
       <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
       <property name="eclipselink.logging.level" value="FINE"/>
